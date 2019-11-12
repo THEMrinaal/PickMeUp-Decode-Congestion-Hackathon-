@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)https://www.figma.com/proto/fBGzChgPI9Pu7VMoGJVrPt/PickMe-Up?embed_host=share&node-id=10%3A1647&scaling=min-zoom -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <script>
+      if (function() {
+        try { eval('class Foo {}') } catch (e) { return true }
+        try { eval('for (const x in []) {}') } catch (e) { return true } // Firefox bug, fixed in 51
+        if (!window.fetch) return true
+        return false
+      }()) {
+        location.href = '/unsupported_browser'
+      }
+    </script>
+
+
+
+    <script>
+  (function() {
+    if (!window.INITIAL_OPTIONS) {
+      window.INITIAL_OPTIONS = {};
+    }
+
+    window.INITIAL_OPTIONS.feature_flags = {"advanced_animations":true,"api_components_rate_limit":true,"assets_panel_improvements":true,"chrome_resize_bug":true,"collaboration_real_contributors":true,"comments_notification_preference":true,"comments_sort_filter":true,"defer_invisible_children":true,"derived_symbol_data_in_read_only":true,"disable_resizing_missing_font":true,"dsa_enqueue_component_usages":true,"dsa_track_user_action_rates":true,"enable_public_plugins_new_orgs":true,"exp_logged_out_cta_2019q3_01":true,"faster_shared_symbol_ref":true,"fix_constraint_import":true,"font_weights_relax":true,"guess_font_italic_by_name":true,"library_search_worker":true,"opentype_features_panel":true,"relax_ctrl_b":true,"set_file_thumbnail":true,"use_helpscout":true,"use_server_side_images":true};
+    window.INITIAL_OPTIONS.tracking_session_id = "RikRdlSRd3EeLCCE";
+    window.INITIAL_OPTIONS.cluster_name = "prod";
+    window.INITIAL_OPTIONS.error_dashboard_url = "https://errors.figma.com/api";
+
+    window.INITIAL_OPTIONS.flash = {
+      error: null,
+      warn: null,
+      success: null
+    }
+
+
+      var _initial_options = {"resource_type":null,"email":null,"user_ip":"174.6.85.1","redirect_url":null,"email_token":null,"access_code":null,"editing_file":{"creator_id":"765733780405196886","key":"fBGzChgPI9Pu7VMoGJVrPt","name":"PickMe Up","description":null,"creator":{"id":"765733780405196886","handle":"Jooney Yeon","img_url":"https:\/\/www.gravatar.com\/avatar\/2ec42ba34cca45757c61b442c1ce5576?size=240\u0026default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_j_v2.png"},"folder_id":"4359572","scheme":null,"track_tags":{"source":"import"},"team_id":null,"link_access":"view","trashed_user_id":null,"client_meta":"{\"background_color\":{\"r\":0.89803922176361084,\"g\":0.89803922176361084,\"b\":0.89803922176361084,\"a\":1.0},\"thumbnail_size\":{\"width\":800,\"height\":503},\"render_coordinates\":{\"x\":0.0,\"y\":2133.0,\"width\":16810.0,\"height\":10567.0}}","license":null,"parent_org_id":null,"org_browsable":false,"thumbnail_url_override":null,"thumbnail_guid":null,"url":"https:\/\/www.figma.com\/file\/fBGzChgPI9Pu7VMoGJVrPt\/PickMe-Up","edit_url":"https:\/\/www.figma.com\/file\/fBGzChgPI9Pu7VMoGJVrPt\/PickMe-Up","prototype_url":"https:\/\/www.figma.com\/proto\/fBGzChgPI9Pu7VMoGJVrPt\/PickMe-Up","checkpoint_key":"u4je9BLHx6AIISoPX2LUxr","canvas_path":"checkpoints\/u4j\/e9B\/LHx6AIISoPX2LUxr\/71ZDvzAOaKod5fRmgBTgji.fig","viewer_export_restricted":false,"canvas_url":"\/file\/fBGzChgPI9Pu7VMoGJVrPt\/canvas?ver=u4je9BLHx6AIISoPX2LUxr","thumbnail_url":"\/file\/fBGzChgPI9Pu7VMoGJVrPt\/thumbnail?ver=thumbnails\/c385146c-aae5-4a36-8095-d4a5a232a651","created_at":"2019-11-09T22:30:03.438283Z","touched_at":"2019-11-10T19:12:03.707086Z","deleted_at":null,"trashed_at":null},"created_file_count":0,"zeplin_plugin_id":"745330164019088593","org_id":null}
+      for (var key in _initial_options) {
+        window.INITIAL_OPTIONS[key] = _initial_options[key]
+      }
+
+    window.startUserStateXHR = function() {
+      var stateArgs = ""
+      if (window.INITIAL_OPTIONS.org_id) {
+        stateArgs = "?org_id=" + window.INITIAL_OPTIONS.org_id
+      }
+      var userStateXHR = new XMLHttpRequest
+      userStateXHR.open('GET', '/api/user/state' + stateArgs)
+      userStateXHR.send()
+      window.userStateXHR = userStateXHR
+
+      var userStateXHRStartMs = window.performance ? window.performance.now() : -1
+      userStateXHR.addEventListener('load', function () {
+        window['userStateXHRDuration'] = window.performance ? window.performance.now() - userStateXHRStartMs : -1
+      }, false)
+    };
+    if (location.pathname !== '/preload-editor' && location.pathname !== '/file/new') {
+      window.startUserStateXHR();
+    }
+
+
+      window.Fig = window.Fig || {};
+      var _figOptions = {"importShimURL":"https://static.figma.com/fullscreen/853b8515978bfa6dc9339a0ab89fc09a06b89733/import.shim.js.br","importWorkerURL":"https://static.figma.com/fullscreen/853b8515978bfa6dc9339a0ab89fc09a06b89733/import.worker.js.br","figMigratorURL":"https://static.figma.com/fullscreen/853b8515978bfa6dc9339a0ab89fc09a06b89733/fig_migrator.js.br","fullscreenURLs":{"compiled_wasm.js":"https://static.figma.com/fullscreen/72e32579046686fd1003becdea52e469c499119f/compiled_wasm.js.br","compiled_wasm.wasm":"https://static.figma.com/fullscreen/72e32579046686fd1003becdea52e469c499119f/compiled_wasm.wasm.br"},"jsvmCppURLs":{"jsvm-cpp.js":"https://static.figma.com/fullscreen/3dd3768586d72719c11e876eef4b2bca155a75bb/jsvm-cpp.js.br","jsvm-cpp.wasm":"https://static.figma.com/fullscreen/3dd3768586d72719c11e876eef4b2bca155a75bb/jsvm-cpp.wasm.br"},"fullscreenScriptHash":"dc70c561cbbdf825e6246b72e6911f5b6fee20da","librarySearchWorkerURL":"/figbuild/symlinks/library_search_worker.94f57fd412af82cffe86e51119874785.min.js","viewerScriptURL":"https://static.figma.com/fullscreen/72e32579046686fd1003becdea52e469c499119f/viewer.js.br","viewerWorkerURL":"https://static.figma.com/fullscreen/72e32579046686fd1003becdea52e469c499119f/imagedecoder.js.br"};
+      for (var key in _figOptions) {
+        Fig[key] = _figOptions[key]
+      }
+
+
+      window.INITIAL_OPTIONS.segment_web_key = "6Zhdn0wK1GLYzCsb0LIK0oQplS5TXcB2"
+
+      window.INITIAL_OPTIONS.segment_fullscreen_key = "6uxDivlUmLf95lHRk0R8bZvr8zDxbX5E"
+
+    window.INITIAL_OPTIONS.helpscout_beacon_id = "bb58c9f1-37d7-46d9-80aa-d5308d20ee3f"
+
+      window.INITIAL_OPTIONS.stripe_api_public = "pk_live_LKZ0RKjSZG2D2pwdtwrAhkiJ"
+
+      window.INITIAL_OPTIONS.release_manifest_hash = "83ddec0f8018654ba6c77d07fd5cb945"
+      console.log('release_manifest_hash:', window.INITIAL_OPTIONS.release_manifest_hash)
+
+      window.INITIAL_OPTIONS.release_git_commit = "72e32579046686fd1003becdea52e469c499119f"
+      console.log('release_git_commit:', window.INITIAL_OPTIONS.release_git_commit)
+      window.INITIAL_OPTIONS.release_git_tag = "release-121"
+      console.log('release_git_tag:', window.INITIAL_OPTIONS.release_git_tag)
+  })();
+</script>
+
+
+    <meta name="google" content="notranslate">
+
+    <title>▶ ⚡️ Screens - PickMe Up</title>
+
+      <style type="text/css">
+  #filebrowser-loading-page {
+    opacity: 1;
+    -webkit-transition: opacity .2s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Make sure the loading page is flush with the edges of the page so
+       our layout isnt affected by browser default margins/paddings */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #filebrowser-loading-page.fadeOut {
+    opacity: 0;
+  }
+
+  #filebrowser-loading-page.hidden {
+    display: none;
+    opacity: 0;
+  }
+
+  #filebrowser-loading-page .sidebar {
+    flex: 0 0 208px;
+    background-color: white;
+    padding-top: 57px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #filebrowser-loading-page .sidebar {
+    padding-top: 8px;
+  }
+
+  #filebrowser-loading-page .sidebar .row {
+    background-color: #efefef;
+    border-radius: 3px;
+    margin-left: 48px;
+    width: 100px;
+    height: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  #filebrowser-loading-page .sidebar .divider {
+    height: 1px;
+    width: 208px;
+    background-color: #efefef;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  #filebrowser-loading-page .sidebar div:nth-child(2) { width: 80px; }
+  #filebrowser-loading-page .sidebar div:nth-child(3) { width: 110px; }
+  #filebrowser-loading-page .sidebar div:nth-child(7) { width: 50px; }
+  #filebrowser-loading-page .sidebar div:nth-child(8) { width: 60px; opacity: .8;}
+  #filebrowser-loading-page .sidebar div:nth-child(9) { width: 45px; opacity: .6;}
+  #filebrowser-loading-page .sidebar div:nth-child(10) { width: 45px; opacity: .4;}
+
+  #filebrowser-loading-page .sidebar .circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #efefef;
+
+    left: 13px;
+    top: 158px;
+    width: 22px;
+    height: 22px;
+  }
+
+  #filebrowser-loading-page .content {
+    flex: 1 1;
+    box-sizing: border-box;
+    border-left: 1px #ebebeb solid;
+    background-color: #f8f8f8;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px 0 24px 24px;
+    align-content: flex-start;
+  }
+
+  #filebrowser-loading-page .content {
+    background-color: #ffffff;
+  }
+
+  /*
+  Note: Make sure any changes here are also duplicated in the fullscreen progress bar
+  (.progressBar in progress_bar.css)
+  */
+  #filebrowser-loading-progress-bar {
+    height: 5px;
+      background: #18A0FB;
+    position: absolute;
+    left: 0;
+    animation: filebrowserloadingProgressBar 10s cubic-bezier(.08,.8,.1,1) forwards;
+  }
+
+  @keyframes filebrowserloadingProgressBar {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+
+  @media (max-width: 645px) {
+    #filebrowser-loading-page .sidebar {
+      display: none;
+    }
+
+    #filebrowser-loading-page .content {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 821px) {
+    #filebrowser-loading-page .tile {
+      /* 51% ensures no more than 1 tile per row */
+      min-width: 51%;
+      max-width: 100%;
+    }
+  }
+
+</style>
+
+
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@figmadesign">
+    <meta name="twitter:title" content="PickMe Up">
+    <meta name="twitter:player" content="https://www.figma.com/embed?embed_host=twitter&amp;url=https://www.figma.com/proto/fBGzChgPI9Pu7VMoGJVrPt?embed_host=share&amp;node-id=10%3A1647&amp;scaling=min-zoom">
+    <meta name="twitter:player:width" content="800">
+    <meta name="twitter:player:height" content="450">
+    <meta name="twitter:image" content="https://www.figma.com/file/fBGzChgPI9Pu7VMoGJVrPt/thumbnail?ver=thumbnails/c385146c-aae5-4a36-8095-d4a5a232a651">
+
+    <meta property="og:url" content="https://www.figma.com/file/fBGzChgPI9Pu7VMoGJVrPt/PickMe-Up">
+    <meta property="og:description" content="Created with Figma">
+    <meta property="og:image" content="https://www.figma.com/file/fBGzChgPI9Pu7VMoGJVrPt/thumbnail?ver=thumbnails/c385146c-aae5-4a36-8095-d4a5a232a651">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="503">
+    <meta property="og:image:user_generated" content="true">
+    <meta property="og:type" content="article">
+    <meta property="og:article:published_time" content="2019-11-09 22:30:03 UTC">
+    <meta property="og:article:modified_time" content="2019-11-10 19:12:03 UTC">
+    <meta property="og:article:section" content="Design">
+
+    <meta name="description" content="Created with Figma">
+
+    <link rel="alternate" type="application/json+oembed" href="https://www.figma.com/api/oembed?url=https://www.figma.com/proto/fBGzChgPI9Pu7VMoGJVrPt?embed_host=share&amp;node-id=10%3A1647&amp;scaling=min-zoom" title="OEmbed">
+
+    <meta property="og:title" content="Figma">
+    <meta property="og:site_name" content="Figma">
+
+    
+
+
+<link rel="icon" sizes="192x192" href="https://static.figma.com/app/icon/1/icon-192.png">
+<link rel="icon" sizes="128x128" href="https://static.figma.com/app/icon/1/icon-128.png">
+
+<link rel="icon" type="image/png" href="https://static.figma.com/app/icon/1/favicon.png">
+<!--[if IE]><link rel="shortcut icon" href="https://static.figma.com/app/icon/1/favicon.ico" type="image/vnd.microsoft.icon" /><![endif]-->
+<link rel="icon" sizes="any" type="image/svg+xml" href="https://static.figma.com/app/icon/1/favicon.svg">
+
+<link rel="apple-touch-icon" sizes="76x76" href="https://static.figma.com/app/icon/1/touch-76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://static.figma.com/app/icon/1/touch-120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://static.figma.com/app/icon/1/touch-152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="https://static.figma.com/app/icon/1/touch-167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://static.figma.com/app/icon/1/touch-180.png">
+
+
+      <link href="./figma_app.93ca4966ea1c5d78201e618014d6cbcf.min.css" rel="stylesheet">
+
+        <link rel="preload" href="https://static.figma.com/webfont/1/Inter-Regular.woff2?v=3.10" as="font" crossorigin="anonymous">
+        <link rel="preload" href="https://static.figma.com/webfont/1/Inter-Italic.woff2?v=3.10" as="font" crossorigin="anonymous">
+        <link rel="preload" href="https://static.figma.com/webfont/1/Inter-Medium.woff2?v=3.10" as="font" crossorigin="anonymous">
+        <link rel="preload" href="https://static.figma.com/webfont/1/Inter-MediumItalic.woff2?v=3.10" as="font" crossorigin="anonymous">
+        <link rel="preload" href="https://static.figma.com/webfont/1/Inter-SemiBold.woff2?v=3.10" as="font" crossorigin="anonymous">
+        <link rel="preload" href="https://static.figma.com/webfont/1/Inter-SemiBoldItalic.woff2?v=3.10" as="font" crossorigin="anonymous">
+  <script type="text/javascript" async="" crossorigin="anonymous" src="./import.shim.js.br"></script><style>@-moz-keyframes progress-bar-animation {0.000%{transform:scaleX(0.000);}0.500%{transform:scaleX(0.066);}1.000%{transform:scaleX(0.130);}1.500%{transform:scaleX(0.192);}2.000%{transform:scaleX(0.250);}2.500%{transform:scaleX(0.305);}3.000%{transform:scaleX(0.355);}3.500%{transform:scaleX(0.402);}4.000%{transform:scaleX(0.444);}4.500%{transform:scaleX(0.482);}5.000%{transform:scaleX(0.516);}5.500%{transform:scaleX(0.548);}6.000%{transform:scaleX(0.576);}6.500%{transform:scaleX(0.602);}7.000%{transform:scaleX(0.625);}7.500%{transform:scaleX(0.646);}8.000%{transform:scaleX(0.666);}8.500%{transform:scaleX(0.683);}9.000%{transform:scaleX(0.699);}9.500%{transform:scaleX(0.714);}10.000%{transform:scaleX(0.728);}10.500%{transform:scaleX(0.741);}11.000%{transform:scaleX(0.752);}11.500%{transform:scaleX(0.763);}12.000%{transform:scaleX(0.773);}12.500%{transform:scaleX(0.783);}13.000%{transform:scaleX(0.791);}13.500%{transform:scaleX(0.800);}14.000%{transform:scaleX(0.807);}14.500%{transform:scaleX(0.815);}15.000%{transform:scaleX(0.821);}15.500%{transform:scaleX(0.828);}16.000%{transform:scaleX(0.834);}16.500%{transform:scaleX(0.839);}17.000%{transform:scaleX(0.845);}17.500%{transform:scaleX(0.850);}18.000%{transform:scaleX(0.855);}18.500%{transform:scaleX(0.859);}19.000%{transform:scaleX(0.864);}19.500%{transform:scaleX(0.868);}20.000%{transform:scaleX(0.872);}20.500%{transform:scaleX(0.876);}21.000%{transform:scaleX(0.879);}21.500%{transform:scaleX(0.883);}22.000%{transform:scaleX(0.886);}22.500%{transform:scaleX(0.889);}23.000%{transform:scaleX(0.892);}23.500%{transform:scaleX(0.895);}24.000%{transform:scaleX(0.898);}24.500%{transform:scaleX(0.900);}25.000%{transform:scaleX(0.903);}25.500%{transform:scaleX(0.906);}26.000%{transform:scaleX(0.908);}26.500%{transform:scaleX(0.910);}27.000%{transform:scaleX(0.912);}27.500%{transform:scaleX(0.915);}28.000%{transform:scaleX(0.917);}28.500%{transform:scaleX(0.919);}29.000%{transform:scaleX(0.921);}29.500%{transform:scaleX(0.922);}30.000%{transform:scaleX(0.924);}30.500%{transform:scaleX(0.926);}31.000%{transform:scaleX(0.928);}31.500%{transform:scaleX(0.929);}32.000%{transform:scaleX(0.931);}32.500%{transform:scaleX(0.932);}33.000%{transform:scaleX(0.934);}33.500%{transform:scaleX(0.935);}34.000%{transform:scaleX(0.937);}34.500%{transform:scaleX(0.938);}35.000%{transform:scaleX(0.940);}35.500%{transform:scaleX(0.941);}36.000%{transform:scaleX(0.942);}36.500%{transform:scaleX(0.943);}37.000%{transform:scaleX(0.945);}37.500%{transform:scaleX(0.946);}38.000%{transform:scaleX(0.947);}38.500%{transform:scaleX(0.948);}39.000%{transform:scaleX(0.949);}39.500%{transform:scaleX(0.950);}40.000%{transform:scaleX(0.951);}40.500%{transform:scaleX(0.952);}41.000%{transform:scaleX(0.953);}41.500%{transform:scaleX(0.954);}42.000%{transform:scaleX(0.955);}42.500%{transform:scaleX(0.956);}43.000%{transform:scaleX(0.957);}43.500%{transform:scaleX(0.958);}44.000%{transform:scaleX(0.958);}44.500%{transform:scaleX(0.959);}45.000%{transform:scaleX(0.960);}45.500%{transform:scaleX(0.961);}46.000%{transform:scaleX(0.962);}46.500%{transform:scaleX(0.962);}47.000%{transform:scaleX(0.963);}47.500%{transform:scaleX(0.964);}48.000%{transform:scaleX(0.965);}48.500%{transform:scaleX(0.965);}49.000%{transform:scaleX(0.966);}49.500%{transform:scaleX(0.967);}50.000%{transform:scaleX(0.967);}50.500%{transform:scaleX(0.968);}51.000%{transform:scaleX(0.969);}51.500%{transform:scaleX(0.969);}52.000%{transform:scaleX(0.970);}52.500%{transform:scaleX(0.970);}53.000%{transform:scaleX(0.971);}53.500%{transform:scaleX(0.972);}54.000%{transform:scaleX(0.972);}54.500%{transform:scaleX(0.973);}55.000%{transform:scaleX(0.973);}55.500%{transform:scaleX(0.974);}56.000%{transform:scaleX(0.974);}56.500%{transform:scaleX(0.975);}57.000%{transform:scaleX(0.975);}57.500%{transform:scaleX(0.976);}58.000%{transform:scaleX(0.976);}58.500%{transform:scaleX(0.977);}59.000%{transform:scaleX(0.977);}59.500%{transform:scaleX(0.978);}60.000%{transform:scaleX(0.978);}60.500%{transform:scaleX(0.979);}61.000%{transform:scaleX(0.979);}61.500%{transform:scaleX(0.980);}62.000%{transform:scaleX(0.980);}62.500%{transform:scaleX(0.980);}63.000%{transform:scaleX(0.981);}63.500%{transform:scaleX(0.981);}64.000%{transform:scaleX(0.982);}64.500%{transform:scaleX(0.982);}65.000%{transform:scaleX(0.982);}65.500%{transform:scaleX(0.983);}66.000%{transform:scaleX(0.983);}66.500%{transform:scaleX(0.984);}67.000%{transform:scaleX(0.984);}67.500%{transform:scaleX(0.984);}68.000%{transform:scaleX(0.985);}68.500%{transform:scaleX(0.985);}69.000%{transform:scaleX(0.985);}69.500%{transform:scaleX(0.986);}70.000%{transform:scaleX(0.986);}70.500%{transform:scaleX(0.986);}71.000%{transform:scaleX(0.987);}71.500%{transform:scaleX(0.987);}72.000%{transform:scaleX(0.987);}72.500%{transform:scaleX(0.988);}73.000%{transform:scaleX(0.988);}73.500%{transform:scaleX(0.988);}74.000%{transform:scaleX(0.988);}74.500%{transform:scaleX(0.989);}75.000%{transform:scaleX(0.989);}75.500%{transform:scaleX(0.989);}76.000%{transform:scaleX(0.990);}76.500%{transform:scaleX(0.990);}77.000%{transform:scaleX(0.990);}77.500%{transform:scaleX(0.990);}78.000%{transform:scaleX(0.991);}78.500%{transform:scaleX(0.991);}79.000%{transform:scaleX(0.991);}79.500%{transform:scaleX(0.992);}80.000%{transform:scaleX(0.992);}80.500%{transform:scaleX(0.992);}81.000%{transform:scaleX(0.992);}81.500%{transform:scaleX(0.993);}82.000%{transform:scaleX(0.993);}82.500%{transform:scaleX(0.993);}83.000%{transform:scaleX(0.993);}83.500%{transform:scaleX(0.994);}84.000%{transform:scaleX(0.994);}84.500%{transform:scaleX(0.994);}85.000%{transform:scaleX(0.994);}85.500%{transform:scaleX(0.994);}86.000%{transform:scaleX(0.995);}86.500%{transform:scaleX(0.995);}87.000%{transform:scaleX(0.995);}87.500%{transform:scaleX(0.995);}88.000%{transform:scaleX(0.996);}88.500%{transform:scaleX(0.996);}89.000%{transform:scaleX(0.996);}89.500%{transform:scaleX(0.996);}90.000%{transform:scaleX(0.996);}90.500%{transform:scaleX(0.997);}91.000%{transform:scaleX(0.997);}91.500%{transform:scaleX(0.997);}92.000%{transform:scaleX(0.997);}92.500%{transform:scaleX(0.997);}93.000%{transform:scaleX(0.998);}93.500%{transform:scaleX(0.998);}94.000%{transform:scaleX(0.998);}94.500%{transform:scaleX(0.998);}95.000%{transform:scaleX(0.998);}95.500%{transform:scaleX(0.998);}96.000%{transform:scaleX(0.999);}96.500%{transform:scaleX(0.999);}97.000%{transform:scaleX(0.999);}97.500%{transform:scaleX(0.999);}98.000%{transform:scaleX(0.999);}98.500%{transform:scaleX(1.000);}99.000%{transform:scaleX(1.000);}99.500%{transform:scaleX(1.000);}}@-webkit-keyframes progress-bar-animation {0.000%{transform:scaleX(0.000);}0.500%{transform:scaleX(0.066);}1.000%{transform:scaleX(0.130);}1.500%{transform:scaleX(0.192);}2.000%{transform:scaleX(0.250);}2.500%{transform:scaleX(0.305);}3.000%{transform:scaleX(0.355);}3.500%{transform:scaleX(0.402);}4.000%{transform:scaleX(0.444);}4.500%{transform:scaleX(0.482);}5.000%{transform:scaleX(0.516);}5.500%{transform:scaleX(0.548);}6.000%{transform:scaleX(0.576);}6.500%{transform:scaleX(0.602);}7.000%{transform:scaleX(0.625);}7.500%{transform:scaleX(0.646);}8.000%{transform:scaleX(0.666);}8.500%{transform:scaleX(0.683);}9.000%{transform:scaleX(0.699);}9.500%{transform:scaleX(0.714);}10.000%{transform:scaleX(0.728);}10.500%{transform:scaleX(0.741);}11.000%{transform:scaleX(0.752);}11.500%{transform:scaleX(0.763);}12.000%{transform:scaleX(0.773);}12.500%{transform:scaleX(0.783);}13.000%{transform:scaleX(0.791);}13.500%{transform:scaleX(0.800);}14.000%{transform:scaleX(0.807);}14.500%{transform:scaleX(0.815);}15.000%{transform:scaleX(0.821);}15.500%{transform:scaleX(0.828);}16.000%{transform:scaleX(0.834);}16.500%{transform:scaleX(0.839);}17.000%{transform:scaleX(0.845);}17.500%{transform:scaleX(0.850);}18.000%{transform:scaleX(0.855);}18.500%{transform:scaleX(0.859);}19.000%{transform:scaleX(0.864);}19.500%{transform:scaleX(0.868);}20.000%{transform:scaleX(0.872);}20.500%{transform:scaleX(0.876);}21.000%{transform:scaleX(0.879);}21.500%{transform:scaleX(0.883);}22.000%{transform:scaleX(0.886);}22.500%{transform:scaleX(0.889);}23.000%{transform:scaleX(0.892);}23.500%{transform:scaleX(0.895);}24.000%{transform:scaleX(0.898);}24.500%{transform:scaleX(0.900);}25.000%{transform:scaleX(0.903);}25.500%{transform:scaleX(0.906);}26.000%{transform:scaleX(0.908);}26.500%{transform:scaleX(0.910);}27.000%{transform:scaleX(0.912);}27.500%{transform:scaleX(0.915);}28.000%{transform:scaleX(0.917);}28.500%{transform:scaleX(0.919);}29.000%{transform:scaleX(0.921);}29.500%{transform:scaleX(0.922);}30.000%{transform:scaleX(0.924);}30.500%{transform:scaleX(0.926);}31.000%{transform:scaleX(0.928);}31.500%{transform:scaleX(0.929);}32.000%{transform:scaleX(0.931);}32.500%{transform:scaleX(0.932);}33.000%{transform:scaleX(0.934);}33.500%{transform:scaleX(0.935);}34.000%{transform:scaleX(0.937);}34.500%{transform:scaleX(0.938);}35.000%{transform:scaleX(0.940);}35.500%{transform:scaleX(0.941);}36.000%{transform:scaleX(0.942);}36.500%{transform:scaleX(0.943);}37.000%{transform:scaleX(0.945);}37.500%{transform:scaleX(0.946);}38.000%{transform:scaleX(0.947);}38.500%{transform:scaleX(0.948);}39.000%{transform:scaleX(0.949);}39.500%{transform:scaleX(0.950);}40.000%{transform:scaleX(0.951);}40.500%{transform:scaleX(0.952);}41.000%{transform:scaleX(0.953);}41.500%{transform:scaleX(0.954);}42.000%{transform:scaleX(0.955);}42.500%{transform:scaleX(0.956);}43.000%{transform:scaleX(0.957);}43.500%{transform:scaleX(0.958);}44.000%{transform:scaleX(0.958);}44.500%{transform:scaleX(0.959);}45.000%{transform:scaleX(0.960);}45.500%{transform:scaleX(0.961);}46.000%{transform:scaleX(0.962);}46.500%{transform:scaleX(0.962);}47.000%{transform:scaleX(0.963);}47.500%{transform:scaleX(0.964);}48.000%{transform:scaleX(0.965);}48.500%{transform:scaleX(0.965);}49.000%{transform:scaleX(0.966);}49.500%{transform:scaleX(0.967);}50.000%{transform:scaleX(0.967);}50.500%{transform:scaleX(0.968);}51.000%{transform:scaleX(0.969);}51.500%{transform:scaleX(0.969);}52.000%{transform:scaleX(0.970);}52.500%{transform:scaleX(0.970);}53.000%{transform:scaleX(0.971);}53.500%{transform:scaleX(0.972);}54.000%{transform:scaleX(0.972);}54.500%{transform:scaleX(0.973);}55.000%{transform:scaleX(0.973);}55.500%{transform:scaleX(0.974);}56.000%{transform:scaleX(0.974);}56.500%{transform:scaleX(0.975);}57.000%{transform:scaleX(0.975);}57.500%{transform:scaleX(0.976);}58.000%{transform:scaleX(0.976);}58.500%{transform:scaleX(0.977);}59.000%{transform:scaleX(0.977);}59.500%{transform:scaleX(0.978);}60.000%{transform:scaleX(0.978);}60.500%{transform:scaleX(0.979);}61.000%{transform:scaleX(0.979);}61.500%{transform:scaleX(0.980);}62.000%{transform:scaleX(0.980);}62.500%{transform:scaleX(0.980);}63.000%{transform:scaleX(0.981);}63.500%{transform:scaleX(0.981);}64.000%{transform:scaleX(0.982);}64.500%{transform:scaleX(0.982);}65.000%{transform:scaleX(0.982);}65.500%{transform:scaleX(0.983);}66.000%{transform:scaleX(0.983);}66.500%{transform:scaleX(0.984);}67.000%{transform:scaleX(0.984);}67.500%{transform:scaleX(0.984);}68.000%{transform:scaleX(0.985);}68.500%{transform:scaleX(0.985);}69.000%{transform:scaleX(0.985);}69.500%{transform:scaleX(0.986);}70.000%{transform:scaleX(0.986);}70.500%{transform:scaleX(0.986);}71.000%{transform:scaleX(0.987);}71.500%{transform:scaleX(0.987);}72.000%{transform:scaleX(0.987);}72.500%{transform:scaleX(0.988);}73.000%{transform:scaleX(0.988);}73.500%{transform:scaleX(0.988);}74.000%{transform:scaleX(0.988);}74.500%{transform:scaleX(0.989);}75.000%{transform:scaleX(0.989);}75.500%{transform:scaleX(0.989);}76.000%{transform:scaleX(0.990);}76.500%{transform:scaleX(0.990);}77.000%{transform:scaleX(0.990);}77.500%{transform:scaleX(0.990);}78.000%{transform:scaleX(0.991);}78.500%{transform:scaleX(0.991);}79.000%{transform:scaleX(0.991);}79.500%{transform:scaleX(0.992);}80.000%{transform:scaleX(0.992);}80.500%{transform:scaleX(0.992);}81.000%{transform:scaleX(0.992);}81.500%{transform:scaleX(0.993);}82.000%{transform:scaleX(0.993);}82.500%{transform:scaleX(0.993);}83.000%{transform:scaleX(0.993);}83.500%{transform:scaleX(0.994);}84.000%{transform:scaleX(0.994);}84.500%{transform:scaleX(0.994);}85.000%{transform:scaleX(0.994);}85.500%{transform:scaleX(0.994);}86.000%{transform:scaleX(0.995);}86.500%{transform:scaleX(0.995);}87.000%{transform:scaleX(0.995);}87.500%{transform:scaleX(0.995);}88.000%{transform:scaleX(0.996);}88.500%{transform:scaleX(0.996);}89.000%{transform:scaleX(0.996);}89.500%{transform:scaleX(0.996);}90.000%{transform:scaleX(0.996);}90.500%{transform:scaleX(0.997);}91.000%{transform:scaleX(0.997);}91.500%{transform:scaleX(0.997);}92.000%{transform:scaleX(0.997);}92.500%{transform:scaleX(0.997);}93.000%{transform:scaleX(0.998);}93.500%{transform:scaleX(0.998);}94.000%{transform:scaleX(0.998);}94.500%{transform:scaleX(0.998);}95.000%{transform:scaleX(0.998);}95.500%{transform:scaleX(0.998);}96.000%{transform:scaleX(0.999);}96.500%{transform:scaleX(0.999);}97.000%{transform:scaleX(0.999);}97.500%{transform:scaleX(0.999);}98.000%{transform:scaleX(0.999);}98.500%{transform:scaleX(1.000);}99.000%{transform:scaleX(1.000);}99.500%{transform:scaleX(1.000);}}</style><script type="text/javascript" async="" crossorigin="anonymous" src="./viewer.js.br"></script></head>
+  <!-- This ARIA attribute is a workaround for a bug in Chrome. See http://crbug.com/876605 for details. -->
+  <body aria-hidden="true" class="feature_flag_advanced_animations feature_flag_api_components_rate_limit feature_flag_assets_panel_improvements feature_flag_chrome_resize_bug feature_flag_collaboration_real_contributors feature_flag_comments_notification_preference feature_flag_comments_sort_filter feature_flag_defer_invisible_children feature_flag_derived_symbol_data_in_read_only feature_flag_disable_resizing_missing_font feature_flag_dsa_enqueue_component_usages feature_flag_dsa_track_user_action_rates feature_flag_enable_public_plugins_new_orgs feature_flag_exp_logged_out_cta_2019q3_01 feature_flag_faster_shared_symbol_ref feature_flag_fix_constraint_import feature_flag_font_weights_relax feature_flag_guess_font_italic_by_name feature_flag_library_search_worker feature_flag_opentype_features_panel feature_flag_relax_ctrl_b feature_flag_set_file_thumbnail feature_flag_use_helpscout feature_flag_use_server_side_images">
+    <!-- This SVG is a workaround for a bug in Chrome. See http://crbug.com/660929 for details. -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1px" height="1px" style="position: absolute">
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+      <g transform="translate(16,179)"><path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 136.64189910888672 v 35 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 47.832489013671875,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z M 126.64189910888672,5 h -14.5 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 6 h 14.5 z"></path></g>
+    </svg>
+
+      <div style="position: fixed; top: -1000px; left: -1000px;">
+        <div id="font-ui-400-normal">a</div>
+        <div id="font-ui-400-italic">a</div>
+        <div id="font-ui-500-normal">a</div>
+        <div id="font-ui-500-italic">a</div>
+        <div id="font-ui-600-normal">a</div>
+        <div id="font-ui-600-italic">a</div>
+
+        <div id="font-ui-400-normal-white">a</div>
+      </div>
+
+    <div id="react-page"><div class="in_app_page--app--234Z6 in_app_page--appFont--3IVZv"><div class="in_app_page--content--2V_He"><div class="prototype--background--DpPNr " style="background-color: rgb(0, 0, 0);"><div class="header--loadingHeader--q7YEu header--header--3d0kA"><a class="header--topLeftWordMark--1O59R"><span class="svg-container"><svg class="svg" width="51" height="18" viewBox="0 0 51 18" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v14.048l1.807.006v-6.69h4.358V5.596H1.807V1.768h5.676V0H0zm10.736 2.852c.651 0 1.18-.527 1.18-1.178 0-.651-.529-1.18-1.18-1.18-.65 0-1.178.529-1.178 1.18 0 .65.527 1.178 1.178 1.178zm-.919 1.769v9.43h1.807v-9.43H9.817z" fill-rule="nonzero" fill-opacity="1" fill="#000" stroke="none"></path><path d="M18.328 4.346c-2.4 0-4.075 2.03-4.075 4.44 0 2.41 1.675 4.44 4.075 4.44 1.1 0 2.005-.426 2.664-1.118v1.255c0 1.563-1.227 2.869-2.829 2.869-.576 0-1.148-.223-1.604-.537l-.905 1.568c.723.466 1.584.737 2.509.737 2.56 0 4.637-2.076 4.637-4.637V4.621h-1.808v.843c-.659-.693-1.565-1.118-2.664-1.118zm-2.267 4.44c0-1.496 1.144-2.672 2.464-2.672 1.32 0 2.464 1.176 2.464 2.672 0 1.496-1.144 2.672-2.464 2.672-1.32 0-2.464-1.176-2.464-2.672z" fill-rule="evenodd" fill-opacity="1" fill="#000" stroke="none"></path><path d="M29.312 6.114c-1.068 0-1.935.905-1.935 1.974v5.963H25.57v-9.43h1.807v.864c.53-.685 1.31-1.14 2.328-1.14 1.267 0 2.239.63 2.802 1.592.626-.93 1.647-1.591 2.876-1.591 2.057 0 3.338 1.66 3.35 3.713v5.992h-1.807V8.088c0-1.069-.867-1.974-1.936-1.974-1.069 0-1.935.905-1.935 1.974v5.963h-1.807V8.088c0-1.069-.867-1.974-1.936-1.974z" fill-rule="nonzero" fill-opacity="1" fill="#000" stroke="none"></path><path d="M48.36 5.69c-.804-.83-1.905-1.344-3.183-1.344-2.689 0-4.597 2.276-4.597 4.99 0 2.713 1.908 4.99 4.597 4.99 1.278 0 2.379-.514 3.183-1.344v1.069h1.807v-9.43H48.36V5.69zm-5.973 3.646c0-1.8 1.379-3.222 2.987-3.222 1.607 0 2.986 1.422 2.986 3.222 0 1.8-1.379 3.222-2.986 3.222-1.608 0-2.987-1.422-2.987-3.222z" fill-rule="evenodd" fill-opacity="1" fill="#000" stroke="none"></path></svg></span></a></div><div class="prototype--wrapperFullScale--2bU4j prototype--wrapper--KZ5DX"><div id="viewerContainer" class="prototype--viewer--W7Z-5"><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: auto; height: auto;"><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: auto; height: auto;"><canvas width="607" height="925" style="display: block; left: 0px; top: 0px; width: 607px; height: 925px;"></canvas></div></div></div></div><div><div class="progress_bar--progressBarBackground--18Dzc"></div><div class="progress_bar--progressBarPageCover--5OQvS"></div><div class="progress_bar--progressBar--1uSHu" style="animation: 120s linear 0s 1 normal none running progress-bar-animation;"></div></div><div class="footer--footerHidden--UAd04 footer--footer--fZyaC"><div class="footer--status--myMjn footer--pill--g2EV5"><span class="svg-container footer--backIconContainerDisabled--1auHU footer--statusContainer--3JrXH"><svg class="svg" width="8" height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg"><path d="M1 6.5l-.353-.354-.354.354.354.354L1 6.5zM6.647.146l-6 6 .707.708 6-6-.707-.708zm-6 6.708l6 6 .707-.708-6-6-.707.708z" fill-rule="nonzero" fill-opacity="1" fill="#fff" stroke="none"></path></svg></span><span class="svg-container footer--nextIconContainer--1lULF footer--statusContainer--3JrXH"><svg class="svg" width="8" height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 6.5l.354-.354.353.354-.353.354L6.5 6.5zM.854.146l6 6-.708.708-6-6L.854.146zm6 6.708l-6 6-.708-.708 6-6 .708.708z" fill-rule="nonzero" fill-opacity="1" fill="#fff" stroke="none"></path></svg></span></div><div class="footer--replayButton--wwjy6 footer--pill--g2EV5"><span class="svg-container"><svg class="svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.293 11.5l3.354-3.354.707.708L8.207 11H14c1.657 0 3 1.343 3 3v1h-1v-1c0-1.105-.895-2-2-2H8.207l2.147 2.146-.707.708L6.293 11.5z" fill-rule="evenodd" fill-opacity="1" fill="#fff" stroke="none"></path></svg></span>Restart (R)</div></div></div><div class="flash_view--flashes--1wuM5"></div><div class="visual_bell--base--1xST5 "><div class="visual_bell--messageContainer--3tSMR _overlayBase--_overlayBase--1sCqN text--fontNeg14--uh3vw text--_fontBase--YWDo0 text--_whiteText--2PkdM "></div></div><div class="blocked_ui_loading_indicator--base--3rACw"><div class="blocked_ui_loading_indicator--messageContainer--2KyaR _overlayBase--_overlayBase--1sCqN text--fontNeg14--uh3vw text--_fontBase--YWDo0 text--_whiteText--2PkdM "></div></div><div></div></div></div></div>
+
+      <div id="filebrowser-loading-page" class="hidden fadeOut">
+  <div class="topBar"></div>
+  <div class="sidebar">
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="divider"></div>
+    <div class="circle"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+  </div>
+  <div class="content">
+  </div>
+  <div id="filebrowser-loading-progress-bar"></div>
+</div>
+
+
+    
+
+      <script>
+    window['sentryConfig'] = {
+    }
+  </script>
+
+      <script src="./vendor.ab03ce74a96b71bee9500264ae7ccd70.min.js"></script>
+      <script src="./figma_app.35985313de58bdbfb52a2d93656c6507.min.js"></script>
+
+  
+
+</body></html>
